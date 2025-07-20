@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="result-page">
+  <div class="result-container">
+    <h2>Predicted Diamond Price 💰</h2>
+    <p class="price">${{ final_result }}</p>
+    <a href="{{ url_for('predict_datapoint') }}" class="home-link">Predict Another</a>
+
+    <!-- <a href="{{ url_for('home_page') }}" class="home-link">Predict Another</a> -->
+  </div>
+</body>
+</html>

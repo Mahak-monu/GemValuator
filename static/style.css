@@ -1,0 +1,199 @@
+/* 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3f4f6;
+    color: #333;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fdfdfd;
+}
+
+button, .home-link {
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+button:hover, .home-link:hover {
+    background-color: #2c80b4;
+}
+
+.result {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 20px 0;
+    color: #27ae60;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+Global Styles
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+
+.home-page {
+  background: url('https://images.unsplash.com/photo-1606312619344-98502e53bff3') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 50px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+}
+
+.get-started-button {
+  padding: 15px 30px;
+  background: #ffcc00;
+  color: black;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+.form-page {
+  background: linear-gradient(to right, #e0f7fa, #fff);
+  padding: 50px 0;
+}
+
+.form-container {
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ccc;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  background: #00695c;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.result-page {
+  background: #f9fbe7;
+  padding: 100px 0;
+}
+
+.result-container {
+  width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #b2dfdb;
+  text-align: center;
+}
+
+.price {
+  font-size: 2em;
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0288d1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
